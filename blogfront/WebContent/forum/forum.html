@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>forum post</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/indexstyle.css" rel='stylesheet' type='text/css' />
+<link href="css/indexnav.css" rel='stylesheet' type='text/css' />
+
+</head>
+<style>
+  body {
+    background: url(images/banner.jpg);
+	
+    background-attachment: fixed;
+}
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+	color:white;
+    margin: 0 auto;
+}
+h1 {
+	margin-top: 20px;
+	font-size: 100px;
+    color: white;
+    line-height: 50px;
+}
+input.form-control::-webkit-input-placeholder 
+{ 
+font-size: 9pt; 
+color: #d9d9d9; 
+}
+textarea[type="text"]::-webkit-input-placeholder
+{
+	font-size: 9pt;
+    color:#d9d9d9;
+}
+.form-signin input[type="text"]
+{
+	color: white;
+	background: transparent;
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+	color: white;
+	background: transparent;
+    margin-bottom: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+	position : static;
+    margin-top: 100px;
+    padding: 30px 0px 20px 0px;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255,0.0);
+   
+    -moz-box-shadow: 97px 87px 45px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 10px rgba(99, 56, 10, 0.3);
+}
+a{
+color  :  #d9d9d9;
+}
+.login-title
+{
+    color: black-shadow;
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+.btn {
+	  margin-top: 20px;
+      padding: 2px 50px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 15;
+      transition: .2s;
+  }
+  </style>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <div class="account-wall">
+				<h1 class="text-center login-title"><i>Forum Post</i></h1>
+                <form class="form-signin">
+				<div class="form-group">
+				
+				<label for="inputName" class="center control-label">Questions</label>
+				<div>
+                <input type="text" ng-model="forum.question" class="form-control" placeholder="Post the Questions">
+				</div>
+				</div>
+				<div class="form-group">
+				
+				<label for="inputName" class="center control-label">Author</label>
+				<div>
+                <input type="text" ng-model="forum.author" class="form-control" placeholder="Author Name">
+				</div>
+				</div>
+				<div class="form-group">
+				<label for="Address" class="left control-label">Blog Content</label>
+				<div>
+                <textarea type="text" ng-model="forum.summary" style="background: transparent;" class="form-control" rows="4" placeholder="Enter the Comments"></textarea>
+				</div>
+				</div>				
+                <button class="btn" ng-click="addForum()" type="submit">
+                    Post</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-text">
+			<p>© 2016 Studentiz. All Rights Reserved | Design by  <a href="http://www.studentiz.com/" target="_blank">Studentiz</a> </p>
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link href="css/bootstrap.css'/>" rel="stylesheet"/>
+
+
+<style>
+	.heaa{
+	margin-top: 240px;
+
+	}
+	
+	.heaa2{
+	padding-left: 380px;
+	padding-right: 380px;
+	margin-bottom: 10px;
+	}
+
+	.heaa3{
+	padding-left: 380px;
+	padding-right: 380px;
+	
+	}
+	
+	.heaa4{
+	margin-left: 700px;
+	margin-top: 10px;
+	}
+	
+</style>
+
+
+
+</head>
+
+<body>
+			<div class="heaa">
+				<form>
+<!-- 					<p>Username</p> -->
+
+						<div class="heaa2">
+					<input type="text" class="form-control" ng-model="user.uname" placeholder="Username" name="username" required="">
+							</div>
+					
+						<!-- <p>Password</p> -->
+					<div class="heaa3">
+					<input type="password" class="form-control" ng-model="user.pwrd" placeholder="Password" name="password" required="">
+					</div>	
+					
+					<div class="heaa4">
+					<input type="submit" class = "btn btn-primary" ng-click="submit()" value="Login">
+				</div>	
+				</form>
+				
+			</div>
+</body>
+</html>

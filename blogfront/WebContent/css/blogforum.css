@@ -1,0 +1,214 @@
+
+img {
+	max-width:100%;
+}
+
+body {
+	background:url(../banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+	font-family: 'Raleway', sans-serif;
+}
+h1.header-w3ls {
+    text-align: center;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    font-size: 50px;
+	font-style: italic;
+    font-weight: normal;
+    padding-top: 35px;
+    color: #fff;
+    letter-spacing: -3px;
+	font-family: Courier New, monospace;
+}
+.content-w3ls {
+	width: 45%;
+    margin: 20px auto 50px;
+    background-color:rgba(0, 0, 0, 0.74);
+    border: 1px solid #a2abb1;
+    padding: 55px 50px;
+}
+.content-wthree1,.content-wthree2,.content-wthree3,.content-wthree4 {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.grid-agileits1 {
+	width:47%;
+	margin:0;
+	padding:0;
+	float:left;
+}
+.grid-agileits2 {
+	width:47%;
+	margin:0;
+	padding:0;
+	float:right;
+}
+.grid-w3layouts1 {
+	width:45%;
+	margin:0;
+	padding:0;
+	float:left;
+}
+.grid-w3layouts2 {
+	width:45%;
+	margin:0;
+	padding:0;
+	float:right;
+}
+.form-control {
+    padding-bottom: 50px;
+	width:100;
+}
+.form-control:nth-child(6) {
+	padding-bottom:0;
+}
+label.header {
+    font-size: 14px;
+    width: 240px;
+    font-weight: 500;
+    color: #fff;
+    text-align: justify;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 10px;
+	position:relative;
+	font-family: 'Abel', sans-serif;
+}
+label.header span {
+	position:absolute;
+	right:10px;
+	top:0;
+}
+input#name,input#email,input#orgn,textarea#message {
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: justify;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: lighter;
+    background-color: rgba(82, 56, 76, 0.15);
+	font-family: 'Raleway', sans-serif;
+}
+input#name,input#email,input#orgn {
+	height:40px;
+	padding:0 15px;
+	width:200%;
+}
+
+label.enquiry {
+	font-size: 20px;
+    width: 252px;
+    font-weight: 500;
+    color: #fff;
+    float: left;
+    text-align: justify;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 25px;
+	position:relative;
+	font-family: 'Abel', sans-serif;
+}
+label.enquiry span {
+	position:absolute;
+	right:15px;
+	top:0;
+}
+textarea#message {
+	height:150px;
+	padding:15px;
+	width:200%;
+	font-family: 'Raleway', sans-serif;
+}
+input::-webkit-input-placeholder {
+color:#fff!important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color:#fff!important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color:#fff!important;  
+}
+ 
+input:-ms-input-placeholder {  
+color:#fff!important;  
+}
+textarea::-webkit-input-placeholder {
+color:#fff!important;
+}
+ 
+textarea::-moz-placeholder { /* Firefox 18- */
+color:#fff!important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color:#fff!important;  
+}
+ 
+textarea::-ms-input-placeholder {  
+color:#fff!important;  
+}
+.register {
+	background-color: #f15f22;
+    width:20%;
+	margin-right:10px;
+	margin-left:251px;
+	float:left;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+	letter-spacing:1px;
+    outline: none;
+    font-size:17px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+	font-family: 'Abel', sans-serif;
+}	
+.register:hover {
+	background-color:#36b051;
+	color:#fff;
+}	
+.content-wthree4 .form-control {
+	padding-bottom:0;
+}
+p.copyright {
+    font-size: 16px;
+	line-height:30px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+p.copyright a {
+	color:#f15f22;
+}
+p.copyright a:hover {
+	color:#36b051;
+}

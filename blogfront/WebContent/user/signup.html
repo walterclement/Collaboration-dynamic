@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Signup</title>
+
+<link href="css/bootstrap.css'/>" rel="stylesheet"/>
+
+<link href="css/indexnav.css'/>" rel="stylesheet"/>
+
+</head>
+<style>
+body{
+	
+}
+
+
+
+} 
+
+
+</style>
+<body>
+
+
+	<!-- login starts here -->
+	<div class="login agile">
+		<div class="w3agile-border">
+			
+			<div class="login-main login-agileits"> 
+				
+					<form>
+					<p>User Name</p>
+					<input type="text" class = "form-control" pattern="[a-zA-Z\s]{3,30}" ng-model="user.uname" placeholder="username" name="name" required="" >
+					<!-- to display validation messages -->
+				
+					<p>Email</p>
+					<input type="text" class = "form-control" ng-model="user.email" placeholder="example@gmail.com" name="mail" required="">
+
+					<p>DOB</p>
+					<input type="text" class = "form-control" ng-model="user.dob" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" placeholder="date of birth" name="DOB" required="">
+					
+					<p>Password</p>
+					<input type="password" class = "form-control" ng-model="user.pwrd" placeholder="Password" name="Password" required="">
+					
+					<p>Role</p>
+					<input type="radio"  ng-model="user.role" value="Student" >Student
+					<input type="radio" ng-model="user.role" value="Employee" >Employee
+					
+					<p>Skills</p>
+					<input type="text" class = "form-control" ng-model="user.skls" placeholder="skills" name="mail" required="">
+					
+					<input type="submit" class="btn btn-primary" ng-click="registerUser()" value="Signup">
+				</form>
+				{{errorMessage}}
+			</div>
+		</div> 
+	</div>
+	<!--slide-end-->
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-text">
+			
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->
+	
+</body>
+</html>
